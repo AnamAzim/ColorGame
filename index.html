@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" align="center">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+function grey() {
+  document.body.style.backgroundColor = 'grey';
+}
+ function red() {
+  document.body.style.backgroundColor = 'red';
+}
+function yellow() {
+  document.body.style.backgroundColor = 'yellow';
+}
+function blue() {
+  document.body.style.backgroundColor = 'blue';
+}
+function green() {
+  document.body.style.backgroundColor = 'green';
+}
+function purple() {
+  document.body.style.backgroundColor = 'purple';
+}
+function black() {
+  document.body.style.backgroundColor = 'black';
+}
+function pink() {
+  document.body.style.backgroundColor = 'pink';
+}
+function brown() {
+  document.body.style.backgroundColor = 'brown';
+}
+function orange() {
+  document.body.style.backgroundColor = 'orange';
+}
+function white() {
+  document.body.style.backgroundColor = 'white';
+}
+</script>
+
+
+<style>
+    input{
+        color: aliceblue;
+        font-size: 20px;
+        height: 50px;
+        width: 100px;
+        font-style: oblique;
+    }
+    .white{
+        color: black;
+    }
+    .input{
+        display: grid;
+        grid-template-columns: repeat(5,100px);
+        grid-template-rows: repeat(2,50px);
+        justify-content: center;
+        gap: 20px;
+    }
+    .main{
+        margin-top: 200px;
+        color: rgb(9, 53, 39);
+        font-style: italic;
+    }
+    .grey{
+        background-color: grey;
+    }
+    .red{
+        background-color: red;
+    }
+    .yellow{
+        background-color: gold;
+    }
+    .blue{
+        background-color: blue;
+    }
+    .green{
+        background-color: green;
+    }
+    .purple{
+        background-color: purple;
+    }
+    .black{
+        background-color: black;
+    }
+    .pink{
+        background-color: pink;
+    }
+    .brown{
+        background-color: brown;
+    }
+    .orange{
+        background-color: orange;
+    }
+</style>
+
+    <title>BGColorGame</title>
+</head>
+<body>
+    <div class="main">
+    <h1>Colour... Colour.... <br>Which Colour Do You Want to Choose</h1>
+    <div class="input">
+    <input type="button" value="GREY" onclick="grey()" class="grey">
+    <input type="button" value="RED" onclick="red()" class="red">
+    <input type="button" value="YELLOW" onclick="yellow()" class="yellow">
+    <input type="button" value="BLUE" onclick="blue()" class="blue">
+    <input type="button" value="GREEN" onclick="green()" class="green">
+    <input type="button" value="PURPLE" onclick="purple()" class="purple">
+    <input type="button" value="BLACK" onclick="black()" class="black">
+    <input type="button" value="PINK" onclick="pink()" class="pink">
+    <input type="button" value="BROWN" onclick="brown()" class="brown">
+    <input type="button" value="ORANGE" onclick="orange()" class="orange">
+    </div>
+    <br>
+    <input type="button" value="RESET" onclick="white()" class="white">
+    </div>
+</body>
+</html>
